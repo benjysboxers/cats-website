@@ -1,0 +1,62 @@
+<html>
+  <body>
+    <div class="flex">
+    <link rel="stylesheet" href="style.css">
+
+    <h1>CatPhotoApp</h1>
+    <p><b>Cat Photos</b></p>
+    <p>Click here to view more <a href="catsmore.html" class="button">cat photos</a></p>
+    <img src="relaxing-cat.jpg" alt="cat pictures">
+    
+
+    <h2>Cat Lists</h2>
+    <p><b>Things cats love:</b></p>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+    <div class="wrapper">
+    <img src="lasagna.jpg" alt="munchy food">
+    <p>Cats love lasagna.</p>
+    </div>
+
+    <h3>Top 3 things cats hate:</h3>
+    <ol type="1">
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+    <div class="wrap">
+    <img src="cats.jpg" alt="more cats">
+    <p>Cats <b>hate</b> other cats.</p>
+    </div>
+    <div class="Catform">
+      <h4>Cat Form</h4>
+    </div>
+    <div class ="para1">
+      <p class="cat-text">Is your cat an indoor or outdoor cat?</p>
+    </div>
+
+    <div class="boxes">
+      <input type="radio" option value="Outdoor">Indoor</option>
+      <input type="radio" option value="Outdoor">Outdoor</option>
+    </div>
+
+    <div class="boxes2">
+      <input type="checkbox" option value="Loving" value="Yes">Loving</option>
+      <input type="checkbox" option value="Lazy" value="Yes">Lazy</option>
+      <input type="checkbox" option value="Energetic" value="Yes">Energetic</option>
+
+    </div>
+
+    <div class="box3">
+      <form method="POST"
+      action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
+      <input type="text" id="Sum" name="Sum">
+      <input type="submit" value="Submit">
+      </form>
+    </div>
+    </div>
+
+  </body>
+</html>
+    
